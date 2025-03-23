@@ -1,0 +1,5 @@
+pip freeze の出力をソート＆重複を削除して requirements.txt に保存
+pip freeze | Sort-Object -Unique > requirements.txt
+
+-U 以下のユーザー名で -d 以下のDBに接続
+docker exec -it dev_coordinate-db-1 psql -U subaru238 -d postgres
